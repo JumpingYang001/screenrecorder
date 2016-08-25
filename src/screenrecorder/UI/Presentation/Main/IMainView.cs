@@ -42,6 +42,12 @@ namespace Atf.ScreenRecorder.UI.Presentation {
       event TrackerChangedEventHandler TrackerChanged;
       event EventHandler Update;
       event CancelEventHandler ViewClosing;
+      event EventHandler EnableWebRTCEvent;
+      bool EnableWebRTCInMain
+      {
+          set;
+          get;
+      }
       bool AllowCancel {
          set;
       }

@@ -398,24 +398,20 @@ namespace Atf.ScreenRecorder.Recording
                                     SoundFormat sf = soundProvider.Format;
                                     AudioFormat af = new AudioFormat(sf.SamplesPerSecond, 20, sf.Channels, sf.BitsPerSample);
                                     var enhancer = new WebRtcFilter(100, 100, af, af, true, true, true);
-                                    enhancer.RegisterFramePlayed(soundData);
+                                    //enhancer.RegisterFramePlayed(soundData);
                                     enhancer.Write(soundData);
-                                    byte[] newSoundData = new byte[soundData.Length];
                                     bool moreFrames;
-                                    int frameSize = 450;
-                                    int offset = 0;
+                                    int frameSize = 512;
                                     do
                                     {
                                         short[] cancelBuffer = new short[frameSize]; // contains cancelled audio signal
                                         if (enhancer.Read(cancelBuffer, out moreFrames))
                                         {
-                                            //byte[] getSoundData = enhancer.GetScaledBuffer();
-                                            Buffer.BlockCopy(cancelBuffer, 0, newSoundData, offset, cancelBuffer.Length * sizeof(byte));
-                                            offset += cancelBuffer.Length * sizeof(byte) - 1;
+                                            //
                                         }
-                                        
+                                        Buffer.BlockCopy(recorded, 0, outBuffer, 0, recorded.Length * sizeof(short));
                                     } while (moreFrames);
-
+                                    byte[] newSoundData = enhancer.GetScaledBuffer();
                                     soundSampleIndex += aviFile.AddSound(soundSampleIndex, newSoundData, false);
                                 }
                                 else

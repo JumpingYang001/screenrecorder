@@ -10,86 +10,87 @@
        /// the contents of this method with the code editor.
        /// </summary>
        private void InitializeComponent() {
-          this.components = new System.ComponentModel.Container();
-          System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
-          this.menuStrip = new System.Windows.Forms.MenuStrip();
-          this.recordingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-          this.tsmiRecord = new System.Windows.Forms.ToolStripMenuItem();
-          this.tsmiPause = new System.Windows.Forms.ToolStripMenuItem();
-          this.tsmiStop = new System.Windows.Forms.ToolStripMenuItem();
-          this.tsmiCancel = new System.Windows.Forms.ToolStripMenuItem();
-          this.tsmiPlay = new System.Windows.Forms.ToolStripMenuItem();
-          this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
-          this.tsmiOptions = new System.Windows.Forms.ToolStripMenuItem();
-          this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
-          this.tsmiExit = new System.Windows.Forms.ToolStripMenuItem();
-          this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-          this.tsmiHelpTopics = new System.Windows.Forms.ToolStripMenuItem();
-          this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-          this.tsmiCheckForUpdates = new System.Windows.Forms.ToolStripMenuItem();
-          this.tsmiSendFeedback = new System.Windows.Forms.ToolStripMenuItem();
-          this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripSeparator();
-          this.tsmiAbout = new System.Windows.Forms.ToolStripMenuItem();
-          this.statusStrip = new System.Windows.Forms.StatusStrip();
-          this.lblStatus = new System.Windows.Forms.ToolStripStatusLabel();
-          this.lblDuration = new System.Windows.Forms.ToolStripStatusLabel();
-          this.lblCaptureOrigin = new System.Windows.Forms.ToolStripStatusLabel();
-          this.lblCaptureSize = new System.Windows.Forms.ToolStripStatusLabel();
-          this.picCaptureOrigin = new System.Windows.Forms.ToolStripStatusLabel();
-          this.picCaptureSize = new System.Windows.Forms.ToolStripStatusLabel();
-          this.tspProgress = new System.Windows.Forms.ToolStripProgressBar();
-          this.lblProgressPercent = new System.Windows.Forms.ToolStripStatusLabel();
-          this.tmrUpdate = new System.Windows.Forms.Timer(this.components);
-          this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-          this.btnOpenFolder = new System.Windows.Forms.Button();
-          this.btnPlay = new System.Windows.Forms.Button();
-          this.btnCancel = new System.Windows.Forms.Button();
-          this.btnStop = new System.Windows.Forms.Button();
-          this.btnPause = new System.Windows.Forms.Button();
-          this.btnRecord = new System.Windows.Forms.Button();
-          this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
-          this.contextMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
-          this.ctsmiAbout = new System.Windows.Forms.ToolStripMenuItem();
-          this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-          this.ctmsiHelpTopics = new System.Windows.Forms.ToolStripMenuItem();
-          this.ctsmiCheckForUpdates = new System.Windows.Forms.ToolStripMenuItem();
-          this.ctsmiSendFeedback = new System.Windows.Forms.ToolStripMenuItem();
-          this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-          this.ctsmiRestore = new System.Windows.Forms.ToolStripMenuItem();
-          this.ctsmiOpenFolder = new System.Windows.Forms.ToolStripMenuItem();
-          this.ctssRestore = new System.Windows.Forms.ToolStripSeparator();
-          this.ctsmiRecord = new System.Windows.Forms.ToolStripMenuItem();
-          this.ctsmiPause = new System.Windows.Forms.ToolStripMenuItem();
-          this.ctsmiStop = new System.Windows.Forms.ToolStripMenuItem();
-          this.ctsmiCancel = new System.Windows.Forms.ToolStripMenuItem();
-          this.ctsmiPlay = new System.Windows.Forms.ToolStripMenuItem();
-          this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-          this.ctsmiOptions = new System.Windows.Forms.ToolStripMenuItem();
-          this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-          this.ctsmiExit = new System.Windows.Forms.ToolStripMenuItem();
-          this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripSeparator();
-          this.soundDeviceSelector = new Atf.ScreenRecorder.UI.View.SoundDeviceSelector();
-          this.trackerSelector = new Atf.ScreenRecorder.UI.View.TrackerSelector();
-          this.menuStrip.SuspendLayout();
-          this.statusStrip.SuspendLayout();
-          this.contextMenuStrip.SuspendLayout();
-          this.SuspendLayout();
-          // 
-          // menuStrip
-          // 
-          this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
+            this.menuStrip = new System.Windows.Forms.MenuStrip();
+            this.recordingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiRecord = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiPause = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiStop = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiCancel = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiPlay = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsmiOptions = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsmiExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiHelpTopics = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsmiCheckForUpdates = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiSendFeedback = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsmiAbout = new System.Windows.Forms.ToolStripMenuItem();
+            this.statusStrip = new System.Windows.Forms.StatusStrip();
+            this.lblStatus = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lblDuration = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lblCaptureOrigin = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lblCaptureSize = new System.Windows.Forms.ToolStripStatusLabel();
+            this.picCaptureOrigin = new System.Windows.Forms.ToolStripStatusLabel();
+            this.picCaptureSize = new System.Windows.Forms.ToolStripStatusLabel();
+            this.tspProgress = new System.Windows.Forms.ToolStripProgressBar();
+            this.lblProgressPercent = new System.Windows.Forms.ToolStripStatusLabel();
+            this.tmrUpdate = new System.Windows.Forms.Timer(this.components);
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.btnOpenFolder = new System.Windows.Forms.Button();
+            this.btnPlay = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnStop = new System.Windows.Forms.Button();
+            this.btnPause = new System.Windows.Forms.Button();
+            this.btnRecord = new System.Windows.Forms.Button();
+            this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
+            this.contextMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.ctsmiAbout = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.ctmsiHelpTopics = new System.Windows.Forms.ToolStripMenuItem();
+            this.ctsmiCheckForUpdates = new System.Windows.Forms.ToolStripMenuItem();
+            this.ctsmiSendFeedback = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.ctsmiRestore = new System.Windows.Forms.ToolStripMenuItem();
+            this.ctsmiOpenFolder = new System.Windows.Forms.ToolStripMenuItem();
+            this.ctssRestore = new System.Windows.Forms.ToolStripSeparator();
+            this.ctsmiRecord = new System.Windows.Forms.ToolStripMenuItem();
+            this.ctsmiPause = new System.Windows.Forms.ToolStripMenuItem();
+            this.ctsmiStop = new System.Windows.Forms.ToolStripMenuItem();
+            this.ctsmiCancel = new System.Windows.Forms.ToolStripMenuItem();
+            this.ctsmiPlay = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.ctsmiOptions = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.ctsmiExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripSeparator();
+            this.EnableWebRTC = new System.Windows.Forms.CheckBox();
+            this.soundDeviceSelector = new Atf.ScreenRecorder.UI.View.SoundDeviceSelector();
+            this.trackerSelector = new Atf.ScreenRecorder.UI.View.TrackerSelector();
+            this.menuStrip.SuspendLayout();
+            this.statusStrip.SuspendLayout();
+            this.contextMenuStrip.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // menuStrip
+            // 
+            this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.recordingToolStripMenuItem,
             this.helpToolStripMenuItem});
-          this.menuStrip.Location = new System.Drawing.Point(0, 0);
-          this.menuStrip.Name = "menuStrip";
-          this.menuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-          this.menuStrip.Size = new System.Drawing.Size(380, 24);
-          this.menuStrip.TabIndex = 0;
-          this.menuStrip.Text = "menuStrip1";
-          // 
-          // recordingToolStripMenuItem
-          // 
-          this.recordingToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuStrip.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip.Name = "menuStrip";
+            this.menuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.menuStrip.Size = new System.Drawing.Size(462, 24);
+            this.menuStrip.TabIndex = 0;
+            this.menuStrip.Text = "menuStrip1";
+            // 
+            // recordingToolStripMenuItem
+            // 
+            this.recordingToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmiRecord,
             this.tsmiPause,
             this.tsmiStop,
@@ -99,295 +100,295 @@
             this.tsmiOptions,
             this.toolStripMenuItem1,
             this.tsmiExit});
-          this.recordingToolStripMenuItem.Name = "recordingToolStripMenuItem";
-          this.recordingToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
-          this.recordingToolStripMenuItem.Text = "&Recording";
-          // 
-          // tsmiRecord
-          // 
-          this.tsmiRecord.Image = global::Atf.ScreenRecorder.Properties.Resources.primitive_dot;
-          this.tsmiRecord.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-          this.tsmiRecord.Name = "tsmiRecord";
-          this.tsmiRecord.Size = new System.Drawing.Size(116, 22);
-          this.tsmiRecord.Text = "&Record";
-          this.tsmiRecord.Click += new System.EventHandler(this.tsmiRecord_Click);
-          // 
-          // tsmiPause
-          // 
-          this.tsmiPause.Image = global::Atf.ScreenRecorder.Properties.Resources.playback_pause;
-          this.tsmiPause.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-          this.tsmiPause.Name = "tsmiPause";
-          this.tsmiPause.Size = new System.Drawing.Size(116, 22);
-          this.tsmiPause.Text = "&Pause";
-          this.tsmiPause.Click += new System.EventHandler(this.tsmiPause_Click);
-          // 
-          // tsmiStop
-          // 
-          this.tsmiStop.Image = global::Atf.ScreenRecorder.Properties.Resources.primitive_square;
-          this.tsmiStop.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-          this.tsmiStop.Name = "tsmiStop";
-          this.tsmiStop.Size = new System.Drawing.Size(116, 22);
-          this.tsmiStop.Text = "&Stop";
-          this.tsmiStop.Click += new System.EventHandler(this.tsmiStop_Click);
-          // 
-          // tsmiCancel
-          // 
-          this.tsmiCancel.Image = global::Atf.ScreenRecorder.Properties.Resources.x;
-          this.tsmiCancel.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-          this.tsmiCancel.Name = "tsmiCancel";
-          this.tsmiCancel.Size = new System.Drawing.Size(116, 22);
-          this.tsmiCancel.Text = "&Cancel";
-          this.tsmiCancel.Click += new System.EventHandler(this.tsmiCancel_Click);
-          // 
-          // tsmiPlay
-          // 
-          this.tsmiPlay.Image = global::Atf.ScreenRecorder.Properties.Resources.playback_play;
-          this.tsmiPlay.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-          this.tsmiPlay.Name = "tsmiPlay";
-          this.tsmiPlay.Size = new System.Drawing.Size(116, 22);
-          this.tsmiPlay.Text = "Play";
-          this.tsmiPlay.Click += new System.EventHandler(this.tsmiPlay_Click);
-          // 
-          // toolStripMenuItem2
-          // 
-          this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-          this.toolStripMenuItem2.Size = new System.Drawing.Size(113, 6);
-          // 
-          // tsmiOptions
-          // 
-          this.tsmiOptions.Name = "tsmiOptions";
-          this.tsmiOptions.Size = new System.Drawing.Size(116, 22);
-          this.tsmiOptions.Text = "&Options";
-          this.tsmiOptions.Click += new System.EventHandler(this.tsmiOptions_Click);
-          // 
-          // toolStripMenuItem1
-          // 
-          this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-          this.toolStripMenuItem1.Size = new System.Drawing.Size(113, 6);
-          // 
-          // tsmiExit
-          // 
-          this.tsmiExit.Name = "tsmiExit";
-          this.tsmiExit.Size = new System.Drawing.Size(116, 22);
-          this.tsmiExit.Text = "E&xit";
-          this.tsmiExit.Click += new System.EventHandler(this.tsmiExit_Click);
-          // 
-          // helpToolStripMenuItem
-          // 
-          this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.recordingToolStripMenuItem.Name = "recordingToolStripMenuItem";
+            this.recordingToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
+            this.recordingToolStripMenuItem.Text = "&Recording";
+            // 
+            // tsmiRecord
+            // 
+            this.tsmiRecord.Image = global::Atf.ScreenRecorder.Properties.Resources.primitive_dot;
+            this.tsmiRecord.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.tsmiRecord.Name = "tsmiRecord";
+            this.tsmiRecord.Size = new System.Drawing.Size(116, 22);
+            this.tsmiRecord.Text = "&Record";
+            this.tsmiRecord.Click += new System.EventHandler(this.tsmiRecord_Click);
+            // 
+            // tsmiPause
+            // 
+            this.tsmiPause.Image = global::Atf.ScreenRecorder.Properties.Resources.playback_pause;
+            this.tsmiPause.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.tsmiPause.Name = "tsmiPause";
+            this.tsmiPause.Size = new System.Drawing.Size(116, 22);
+            this.tsmiPause.Text = "&Pause";
+            this.tsmiPause.Click += new System.EventHandler(this.tsmiPause_Click);
+            // 
+            // tsmiStop
+            // 
+            this.tsmiStop.Image = global::Atf.ScreenRecorder.Properties.Resources.primitive_square;
+            this.tsmiStop.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.tsmiStop.Name = "tsmiStop";
+            this.tsmiStop.Size = new System.Drawing.Size(116, 22);
+            this.tsmiStop.Text = "&Stop";
+            this.tsmiStop.Click += new System.EventHandler(this.tsmiStop_Click);
+            // 
+            // tsmiCancel
+            // 
+            this.tsmiCancel.Image = global::Atf.ScreenRecorder.Properties.Resources.x;
+            this.tsmiCancel.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.tsmiCancel.Name = "tsmiCancel";
+            this.tsmiCancel.Size = new System.Drawing.Size(116, 22);
+            this.tsmiCancel.Text = "&Cancel";
+            this.tsmiCancel.Click += new System.EventHandler(this.tsmiCancel_Click);
+            // 
+            // tsmiPlay
+            // 
+            this.tsmiPlay.Image = global::Atf.ScreenRecorder.Properties.Resources.playback_play;
+            this.tsmiPlay.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.tsmiPlay.Name = "tsmiPlay";
+            this.tsmiPlay.Size = new System.Drawing.Size(116, 22);
+            this.tsmiPlay.Text = "Play";
+            this.tsmiPlay.Click += new System.EventHandler(this.tsmiPlay_Click);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(113, 6);
+            // 
+            // tsmiOptions
+            // 
+            this.tsmiOptions.Name = "tsmiOptions";
+            this.tsmiOptions.Size = new System.Drawing.Size(116, 22);
+            this.tsmiOptions.Text = "&Options";
+            this.tsmiOptions.Click += new System.EventHandler(this.tsmiOptions_Click);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(113, 6);
+            // 
+            // tsmiExit
+            // 
+            this.tsmiExit.Name = "tsmiExit";
+            this.tsmiExit.Size = new System.Drawing.Size(116, 22);
+            this.tsmiExit.Text = "E&xit";
+            this.tsmiExit.Click += new System.EventHandler(this.tsmiExit_Click);
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmiHelpTopics,
             this.toolStripSeparator4,
             this.tsmiCheckForUpdates,
             this.tsmiSendFeedback,
             this.toolStripMenuItem3,
             this.tsmiAbout});
-          this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-          this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-          this.helpToolStripMenuItem.Text = "&Help";
-          // 
-          // tsmiHelpTopics
-          // 
-          this.tsmiHelpTopics.Name = "tsmiHelpTopics";
-          this.tsmiHelpTopics.ShortcutKeys = System.Windows.Forms.Keys.F1;
-          this.tsmiHelpTopics.Size = new System.Drawing.Size(179, 22);
-          this.tsmiHelpTopics.Text = "&Help Topics";
-          this.tsmiHelpTopics.Click += new System.EventHandler(this.tsmiHelpTopics_Click);
-          // 
-          // toolStripSeparator4
-          // 
-          this.toolStripSeparator4.Name = "toolStripSeparator4";
-          this.toolStripSeparator4.Size = new System.Drawing.Size(176, 6);
-          // 
-          // tsmiCheckForUpdates
-          // 
-          this.tsmiCheckForUpdates.Name = "tsmiCheckForUpdates";
-          this.tsmiCheckForUpdates.Size = new System.Drawing.Size(179, 22);
-          this.tsmiCheckForUpdates.Text = "Check for &updates...";
-          this.tsmiCheckForUpdates.Click += new System.EventHandler(this.tsmiCheckForUpdates_Click);
-          // 
-          // tsmiSendFeedback
-          // 
-          this.tsmiSendFeedback.Name = "tsmiSendFeedback";
-          this.tsmiSendFeedback.Size = new System.Drawing.Size(179, 22);
-          this.tsmiSendFeedback.Text = "Send &feedback...";
-          this.tsmiSendFeedback.Click += new System.EventHandler(this.tsmiSendFeedback_Click);
-          // 
-          // toolStripMenuItem3
-          // 
-          this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-          this.toolStripMenuItem3.Size = new System.Drawing.Size(176, 6);
-          // 
-          // tsmiAbout
-          // 
-          this.tsmiAbout.Name = "tsmiAbout";
-          this.tsmiAbout.Size = new System.Drawing.Size(179, 22);
-          this.tsmiAbout.Text = "&About";
-          this.tsmiAbout.Click += new System.EventHandler(this.tsmiAbout_Click);
-          // 
-          // statusStrip
-          // 
-          this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Text = "&Help";
+            // 
+            // tsmiHelpTopics
+            // 
+            this.tsmiHelpTopics.Name = "tsmiHelpTopics";
+            this.tsmiHelpTopics.ShortcutKeys = System.Windows.Forms.Keys.F1;
+            this.tsmiHelpTopics.Size = new System.Drawing.Size(179, 22);
+            this.tsmiHelpTopics.Text = "&Help Topics";
+            this.tsmiHelpTopics.Click += new System.EventHandler(this.tsmiHelpTopics_Click);
+            // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(176, 6);
+            // 
+            // tsmiCheckForUpdates
+            // 
+            this.tsmiCheckForUpdates.Name = "tsmiCheckForUpdates";
+            this.tsmiCheckForUpdates.Size = new System.Drawing.Size(179, 22);
+            this.tsmiCheckForUpdates.Text = "Check for &updates...";
+            this.tsmiCheckForUpdates.Click += new System.EventHandler(this.tsmiCheckForUpdates_Click);
+            // 
+            // tsmiSendFeedback
+            // 
+            this.tsmiSendFeedback.Name = "tsmiSendFeedback";
+            this.tsmiSendFeedback.Size = new System.Drawing.Size(179, 22);
+            this.tsmiSendFeedback.Text = "Send &feedback...";
+            this.tsmiSendFeedback.Click += new System.EventHandler(this.tsmiSendFeedback_Click);
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(176, 6);
+            // 
+            // tsmiAbout
+            // 
+            this.tsmiAbout.Name = "tsmiAbout";
+            this.tsmiAbout.Size = new System.Drawing.Size(179, 22);
+            this.tsmiAbout.Text = "&About";
+            this.tsmiAbout.Click += new System.EventHandler(this.tsmiAbout_Click);
+            // 
+            // statusStrip
+            // 
+            this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lblStatus,
             this.lblDuration,
             this.lblCaptureOrigin,
             this.lblCaptureSize});
-          this.statusStrip.Location = new System.Drawing.Point(0, 85);
-          this.statusStrip.Name = "statusStrip";
-          this.statusStrip.ShowItemToolTips = true;
-          this.statusStrip.Size = new System.Drawing.Size(380, 22);
-          this.statusStrip.SizingGrip = false;
-          this.statusStrip.TabIndex = 7;
-          this.statusStrip.Text = "statusStrip1";
-          // 
-          // lblStatus
-          // 
-          this.lblStatus.AutoSize = false;
-          this.lblStatus.AutoToolTip = true;
-          this.lblStatus.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-          this.lblStatus.Name = "lblStatus";
-          this.lblStatus.Size = new System.Drawing.Size(100, 17);
-          this.lblStatus.Text = "[Status]";
-          this.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-          this.lblStatus.ToolTipText = "Status";
-          // 
-          // lblDuration
-          // 
-          this.lblDuration.AutoSize = false;
-          this.lblDuration.AutoToolTip = true;
-          this.lblDuration.Image = global::Atf.ScreenRecorder.Properties.Resources.Timer;
-          this.lblDuration.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-          this.lblDuration.Name = "lblDuration";
-          this.lblDuration.Size = new System.Drawing.Size(90, 17);
-          this.lblDuration.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-          this.lblDuration.ToolTipText = "Duration";
-          // 
-          // lblCaptureOrigin
-          // 
-          this.lblCaptureOrigin.AutoSize = false;
-          this.lblCaptureOrigin.AutoToolTip = true;
-          this.lblCaptureOrigin.Image = global::Atf.ScreenRecorder.Properties.Resources.Origin;
-          this.lblCaptureOrigin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-          this.lblCaptureOrigin.Name = "lblCaptureOrigin";
-          this.lblCaptureOrigin.Size = new System.Drawing.Size(95, 17);
-          this.lblCaptureOrigin.Text = "[Origin]";
-          this.lblCaptureOrigin.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-          this.lblCaptureOrigin.ToolTipText = "Origin";
-          // 
-          // lblCaptureSize
-          // 
-          this.lblCaptureSize.AutoSize = false;
-          this.lblCaptureSize.AutoToolTip = true;
-          this.lblCaptureSize.Image = global::Atf.ScreenRecorder.Properties.Resources.Dimensions;
-          this.lblCaptureSize.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-          this.lblCaptureSize.Name = "lblCaptureSize";
-          this.lblCaptureSize.Size = new System.Drawing.Size(85, 17);
-          this.lblCaptureSize.Text = "(Size)";
-          this.lblCaptureSize.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-          this.lblCaptureSize.ToolTipText = "Dimensions";
-          // 
-          // picCaptureOrigin
-          // 
-          this.picCaptureOrigin.Name = "picCaptureOrigin";
-          this.picCaptureOrigin.Size = new System.Drawing.Size(0, 17);
-          // 
-          // picCaptureSize
-          // 
-          this.picCaptureSize.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-          this.picCaptureSize.Name = "picCaptureSize";
-          this.picCaptureSize.Size = new System.Drawing.Size(0, 17);
-          // 
-          // tspProgress
-          // 
-          this.tspProgress.Name = "tspProgress";
-          this.tspProgress.Size = new System.Drawing.Size(130, 16);
-          this.tspProgress.Visible = false;
-          // 
-          // lblProgressPercent
-          // 
-          this.lblProgressPercent.Name = "lblProgressPercent";
-          this.lblProgressPercent.Size = new System.Drawing.Size(0, 17);
-          // 
-          // tmrUpdate
-          // 
-          this.tmrUpdate.Interval = 1000;
-          this.tmrUpdate.Tick += new System.EventHandler(this.tmrUpdate_Tick);
-          // 
-          // btnOpenFolder
-          // 
-          this.btnOpenFolder.Image = global::Atf.ScreenRecorder.Properties.Resources.file_directory;
-          this.btnOpenFolder.Location = new System.Drawing.Point(202, 40);
-          this.btnOpenFolder.Name = "btnOpenFolder";
-          this.btnOpenFolder.Size = new System.Drawing.Size(32, 32);
-          this.btnOpenFolder.TabIndex = 5;
-          this.toolTip.SetToolTip(this.btnOpenFolder, "Open containing folder");
-          this.btnOpenFolder.UseVisualStyleBackColor = true;
-          this.btnOpenFolder.Click += new System.EventHandler(this.btnOpenFolder_Click);
-          // 
-          // btnPlay
-          // 
-          this.btnPlay.Image = global::Atf.ScreenRecorder.Properties.Resources.playback_play;
-          this.btnPlay.Location = new System.Drawing.Point(164, 40);
-          this.btnPlay.Name = "btnPlay";
-          this.btnPlay.Size = new System.Drawing.Size(32, 32);
-          this.btnPlay.TabIndex = 4;
-          this.toolTip.SetToolTip(this.btnPlay, "Play");
-          this.btnPlay.UseVisualStyleBackColor = true;
-          this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
-          // 
-          // btnCancel
-          // 
-          this.btnCancel.Image = global::Atf.ScreenRecorder.Properties.Resources.x;
-          this.btnCancel.Location = new System.Drawing.Point(126, 40);
-          this.btnCancel.Name = "btnCancel";
-          this.btnCancel.Size = new System.Drawing.Size(32, 32);
-          this.btnCancel.TabIndex = 3;
-          this.toolTip.SetToolTip(this.btnCancel, "Cancel");
-          this.btnCancel.UseVisualStyleBackColor = true;
-          this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
-          // 
-          // btnStop
-          // 
-          this.btnStop.Image = global::Atf.ScreenRecorder.Properties.Resources.primitive_square;
-          this.btnStop.Location = new System.Drawing.Point(88, 40);
-          this.btnStop.Name = "btnStop";
-          this.btnStop.Size = new System.Drawing.Size(32, 32);
-          this.btnStop.TabIndex = 2;
-          this.toolTip.SetToolTip(this.btnStop, "Stop");
-          this.btnStop.UseVisualStyleBackColor = true;
-          this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
-          // 
-          // btnPause
-          // 
-          this.btnPause.Image = global::Atf.ScreenRecorder.Properties.Resources.playback_pause;
-          this.btnPause.Location = new System.Drawing.Point(50, 40);
-          this.btnPause.Name = "btnPause";
-          this.btnPause.Size = new System.Drawing.Size(32, 32);
-          this.btnPause.TabIndex = 1;
-          this.toolTip.SetToolTip(this.btnPause, "Pause");
-          this.btnPause.UseVisualStyleBackColor = true;
-          this.btnPause.Click += new System.EventHandler(this.btnPause_Click);
-          // 
-          // btnRecord
-          // 
-          this.btnRecord.Image = global::Atf.ScreenRecorder.Properties.Resources.primitive_dot;
-          this.btnRecord.Location = new System.Drawing.Point(12, 40);
-          this.btnRecord.Name = "btnRecord";
-          this.btnRecord.Size = new System.Drawing.Size(32, 32);
-          this.btnRecord.TabIndex = 0;
-          this.toolTip.SetToolTip(this.btnRecord, "Record");
-          this.btnRecord.UseVisualStyleBackColor = true;
-          this.btnRecord.Click += new System.EventHandler(this.btnRecord_Click);
-          // 
-          // notifyIcon
-          // 
-          this.notifyIcon.ContextMenuStrip = this.contextMenuStrip;
-          this.notifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon.Icon")));
-          this.notifyIcon.BalloonTipClicked += new System.EventHandler(this.notifyIcon_BalloonTipClicked);
-          this.notifyIcon.DoubleClick += new System.EventHandler(this.notifyIcon_DoubleClick);
-          // 
-          // contextMenuStrip
-          // 
-          this.contextMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.statusStrip.Location = new System.Drawing.Point(0, 85);
+            this.statusStrip.Name = "statusStrip";
+            this.statusStrip.ShowItemToolTips = true;
+            this.statusStrip.Size = new System.Drawing.Size(462, 22);
+            this.statusStrip.SizingGrip = false;
+            this.statusStrip.TabIndex = 7;
+            this.statusStrip.Text = "statusStrip1";
+            // 
+            // lblStatus
+            // 
+            this.lblStatus.AutoSize = false;
+            this.lblStatus.AutoToolTip = true;
+            this.lblStatus.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(100, 17);
+            this.lblStatus.Text = "[Status]";
+            this.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblStatus.ToolTipText = "Status";
+            // 
+            // lblDuration
+            // 
+            this.lblDuration.AutoSize = false;
+            this.lblDuration.AutoToolTip = true;
+            this.lblDuration.Image = global::Atf.ScreenRecorder.Properties.Resources.Timer;
+            this.lblDuration.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblDuration.Name = "lblDuration";
+            this.lblDuration.Size = new System.Drawing.Size(90, 17);
+            this.lblDuration.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblDuration.ToolTipText = "Duration";
+            // 
+            // lblCaptureOrigin
+            // 
+            this.lblCaptureOrigin.AutoSize = false;
+            this.lblCaptureOrigin.AutoToolTip = true;
+            this.lblCaptureOrigin.Image = global::Atf.ScreenRecorder.Properties.Resources.Origin;
+            this.lblCaptureOrigin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblCaptureOrigin.Name = "lblCaptureOrigin";
+            this.lblCaptureOrigin.Size = new System.Drawing.Size(95, 17);
+            this.lblCaptureOrigin.Text = "[Origin]";
+            this.lblCaptureOrigin.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblCaptureOrigin.ToolTipText = "Origin";
+            // 
+            // lblCaptureSize
+            // 
+            this.lblCaptureSize.AutoSize = false;
+            this.lblCaptureSize.AutoToolTip = true;
+            this.lblCaptureSize.Image = global::Atf.ScreenRecorder.Properties.Resources.Dimensions;
+            this.lblCaptureSize.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblCaptureSize.Name = "lblCaptureSize";
+            this.lblCaptureSize.Size = new System.Drawing.Size(85, 17);
+            this.lblCaptureSize.Text = "(Size)";
+            this.lblCaptureSize.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblCaptureSize.ToolTipText = "Dimensions";
+            // 
+            // picCaptureOrigin
+            // 
+            this.picCaptureOrigin.Name = "picCaptureOrigin";
+            this.picCaptureOrigin.Size = new System.Drawing.Size(0, 17);
+            // 
+            // picCaptureSize
+            // 
+            this.picCaptureSize.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.picCaptureSize.Name = "picCaptureSize";
+            this.picCaptureSize.Size = new System.Drawing.Size(0, 17);
+            // 
+            // tspProgress
+            // 
+            this.tspProgress.Name = "tspProgress";
+            this.tspProgress.Size = new System.Drawing.Size(130, 16);
+            this.tspProgress.Visible = false;
+            // 
+            // lblProgressPercent
+            // 
+            this.lblProgressPercent.Name = "lblProgressPercent";
+            this.lblProgressPercent.Size = new System.Drawing.Size(0, 17);
+            // 
+            // tmrUpdate
+            // 
+            this.tmrUpdate.Interval = 1000;
+            this.tmrUpdate.Tick += new System.EventHandler(this.tmrUpdate_Tick);
+            // 
+            // btnOpenFolder
+            // 
+            this.btnOpenFolder.Image = global::Atf.ScreenRecorder.Properties.Resources.file_directory;
+            this.btnOpenFolder.Location = new System.Drawing.Point(202, 40);
+            this.btnOpenFolder.Name = "btnOpenFolder";
+            this.btnOpenFolder.Size = new System.Drawing.Size(32, 32);
+            this.btnOpenFolder.TabIndex = 5;
+            this.toolTip.SetToolTip(this.btnOpenFolder, "Open containing folder");
+            this.btnOpenFolder.UseVisualStyleBackColor = true;
+            this.btnOpenFolder.Click += new System.EventHandler(this.btnOpenFolder_Click);
+            // 
+            // btnPlay
+            // 
+            this.btnPlay.Image = global::Atf.ScreenRecorder.Properties.Resources.playback_play;
+            this.btnPlay.Location = new System.Drawing.Point(164, 40);
+            this.btnPlay.Name = "btnPlay";
+            this.btnPlay.Size = new System.Drawing.Size(32, 32);
+            this.btnPlay.TabIndex = 4;
+            this.toolTip.SetToolTip(this.btnPlay, "Play");
+            this.btnPlay.UseVisualStyleBackColor = true;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.Image = global::Atf.ScreenRecorder.Properties.Resources.x;
+            this.btnCancel.Location = new System.Drawing.Point(126, 40);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(32, 32);
+            this.btnCancel.TabIndex = 3;
+            this.toolTip.SetToolTip(this.btnCancel, "Cancel");
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
+            // btnStop
+            // 
+            this.btnStop.Image = global::Atf.ScreenRecorder.Properties.Resources.primitive_square;
+            this.btnStop.Location = new System.Drawing.Point(88, 40);
+            this.btnStop.Name = "btnStop";
+            this.btnStop.Size = new System.Drawing.Size(32, 32);
+            this.btnStop.TabIndex = 2;
+            this.toolTip.SetToolTip(this.btnStop, "Stop");
+            this.btnStop.UseVisualStyleBackColor = true;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
+            // 
+            // btnPause
+            // 
+            this.btnPause.Image = global::Atf.ScreenRecorder.Properties.Resources.playback_pause;
+            this.btnPause.Location = new System.Drawing.Point(50, 40);
+            this.btnPause.Name = "btnPause";
+            this.btnPause.Size = new System.Drawing.Size(32, 32);
+            this.btnPause.TabIndex = 1;
+            this.toolTip.SetToolTip(this.btnPause, "Pause");
+            this.btnPause.UseVisualStyleBackColor = true;
+            this.btnPause.Click += new System.EventHandler(this.btnPause_Click);
+            // 
+            // btnRecord
+            // 
+            this.btnRecord.Image = global::Atf.ScreenRecorder.Properties.Resources.primitive_dot;
+            this.btnRecord.Location = new System.Drawing.Point(12, 40);
+            this.btnRecord.Name = "btnRecord";
+            this.btnRecord.Size = new System.Drawing.Size(32, 32);
+            this.btnRecord.TabIndex = 0;
+            this.toolTip.SetToolTip(this.btnRecord, "Record");
+            this.btnRecord.UseVisualStyleBackColor = true;
+            this.btnRecord.Click += new System.EventHandler(this.btnRecord_Click);
+            // 
+            // notifyIcon
+            // 
+            this.notifyIcon.ContextMenuStrip = this.contextMenuStrip;
+            this.notifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon.Icon")));
+            this.notifyIcon.BalloonTipClicked += new System.EventHandler(this.notifyIcon_BalloonTipClicked);
+            this.notifyIcon.DoubleClick += new System.EventHandler(this.notifyIcon_DoubleClick);
+            // 
+            // contextMenuStrip
+            // 
+            this.contextMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ctsmiAbout,
             this.toolStripSeparator3,
             this.ctmsiHelpTopics,
@@ -406,186 +407,198 @@
             this.ctsmiOptions,
             this.toolStripSeparator2,
             this.ctsmiExit});
-          this.contextMenuStrip.Name = "contextMenuStrip";
-          this.contextMenuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-          this.contextMenuStrip.Size = new System.Drawing.Size(202, 320);
-          // 
-          // ctsmiAbout
-          // 
-          this.ctsmiAbout.Name = "ctsmiAbout";
-          this.ctsmiAbout.Size = new System.Drawing.Size(201, 22);
-          this.ctsmiAbout.Text = "&About";
-          this.ctsmiAbout.Click += new System.EventHandler(this.tsmiAbout_Click);
-          // 
-          // toolStripSeparator3
-          // 
-          this.toolStripSeparator3.Name = "toolStripSeparator3";
-          this.toolStripSeparator3.Size = new System.Drawing.Size(198, 6);
-          // 
-          // ctmsiHelpTopics
-          // 
-          this.ctmsiHelpTopics.Name = "ctmsiHelpTopics";
-          this.ctmsiHelpTopics.Size = new System.Drawing.Size(201, 22);
-          this.ctmsiHelpTopics.Text = "&Help Topics";
-          this.ctmsiHelpTopics.Click += new System.EventHandler(this.tsmiHelpTopics_Click);
-          // 
-          // ctsmiCheckForUpdates
-          // 
-          this.ctsmiCheckForUpdates.Name = "ctsmiCheckForUpdates";
-          this.ctsmiCheckForUpdates.Size = new System.Drawing.Size(201, 22);
-          this.ctsmiCheckForUpdates.Text = "Check for &updates...";
-          this.ctsmiCheckForUpdates.Click += new System.EventHandler(this.tsmiCheckForUpdates_Click);
-          // 
-          // ctsmiSendFeedback
-          // 
-          this.ctsmiSendFeedback.Name = "ctsmiSendFeedback";
-          this.ctsmiSendFeedback.Size = new System.Drawing.Size(201, 22);
-          this.ctsmiSendFeedback.Text = "&Send feedback...";
-          this.ctsmiSendFeedback.Click += new System.EventHandler(this.tsmiSendFeedback_Click);
-          // 
-          // toolStripSeparator5
-          // 
-          this.toolStripSeparator5.Name = "toolStripSeparator5";
-          this.toolStripSeparator5.Size = new System.Drawing.Size(198, 6);
-          // 
-          // ctsmiRestore
-          // 
-          this.ctsmiRestore.Image = global::Atf.ScreenRecorder.Properties.Resources.restore;
-          this.ctsmiRestore.Name = "ctsmiRestore";
-          this.ctsmiRestore.Size = new System.Drawing.Size(201, 22);
-          this.ctsmiRestore.Text = "Res&tore";
-          this.ctsmiRestore.Click += new System.EventHandler(this.ctsmiRestore_Click);
-          // 
-          // ctsmiOpenFolder
-          // 
-          this.ctsmiOpenFolder.Image = global::Atf.ScreenRecorder.Properties.Resources.file_directory;
-          this.ctsmiOpenFolder.Name = "ctsmiOpenFolder";
-          this.ctsmiOpenFolder.Size = new System.Drawing.Size(201, 22);
-          this.ctsmiOpenFolder.Text = "Open Containing Folder";
-          this.ctsmiOpenFolder.Click += new System.EventHandler(this.ctsmiOpenFolder_Click);
-          // 
-          // ctssRestore
-          // 
-          this.ctssRestore.Name = "ctssRestore";
-          this.ctssRestore.Size = new System.Drawing.Size(198, 6);
-          // 
-          // ctsmiRecord
-          // 
-          this.ctsmiRecord.Image = global::Atf.ScreenRecorder.Properties.Resources.primitive_dot;
-          this.ctsmiRecord.Name = "ctsmiRecord";
-          this.ctsmiRecord.Size = new System.Drawing.Size(201, 22);
-          this.ctsmiRecord.Text = "&Record";
-          this.ctsmiRecord.Click += new System.EventHandler(this.tsmiRecord_Click);
-          // 
-          // ctsmiPause
-          // 
-          this.ctsmiPause.Image = global::Atf.ScreenRecorder.Properties.Resources.playback_pause;
-          this.ctsmiPause.Name = "ctsmiPause";
-          this.ctsmiPause.Size = new System.Drawing.Size(201, 22);
-          this.ctsmiPause.Text = "&Pause";
-          this.ctsmiPause.Click += new System.EventHandler(this.tsmiPause_Click);
-          // 
-          // ctsmiStop
-          // 
-          this.ctsmiStop.Image = global::Atf.ScreenRecorder.Properties.Resources.primitive_square;
-          this.ctsmiStop.Name = "ctsmiStop";
-          this.ctsmiStop.Size = new System.Drawing.Size(201, 22);
-          this.ctsmiStop.Text = "&Stop";
-          this.ctsmiStop.Click += new System.EventHandler(this.tsmiStop_Click);
-          // 
-          // ctsmiCancel
-          // 
-          this.ctsmiCancel.Image = global::Atf.ScreenRecorder.Properties.Resources.x;
-          this.ctsmiCancel.Name = "ctsmiCancel";
-          this.ctsmiCancel.Size = new System.Drawing.Size(201, 22);
-          this.ctsmiCancel.Text = "&Cancel";
-          this.ctsmiCancel.Click += new System.EventHandler(this.tsmiCancel_Click);
-          // 
-          // ctsmiPlay
-          // 
-          this.ctsmiPlay.Image = global::Atf.ScreenRecorder.Properties.Resources.playback_play;
-          this.ctsmiPlay.Name = "ctsmiPlay";
-          this.ctsmiPlay.Size = new System.Drawing.Size(201, 22);
-          this.ctsmiPlay.Text = "Play";
-          this.ctsmiPlay.Click += new System.EventHandler(this.tsmiPlay_Click);
-          // 
-          // toolStripSeparator1
-          // 
-          this.toolStripSeparator1.Name = "toolStripSeparator1";
-          this.toolStripSeparator1.Size = new System.Drawing.Size(198, 6);
-          // 
-          // ctsmiOptions
-          // 
-          this.ctsmiOptions.Name = "ctsmiOptions";
-          this.ctsmiOptions.Size = new System.Drawing.Size(201, 22);
-          this.ctsmiOptions.Text = "Options";
-          this.ctsmiOptions.Click += new System.EventHandler(this.tsmiOptions_Click);
-          // 
-          // toolStripSeparator2
-          // 
-          this.toolStripSeparator2.Name = "toolStripSeparator2";
-          this.toolStripSeparator2.Size = new System.Drawing.Size(198, 6);
-          // 
-          // ctsmiExit
-          // 
-          this.ctsmiExit.Name = "ctsmiExit";
-          this.ctsmiExit.Size = new System.Drawing.Size(201, 22);
-          this.ctsmiExit.Text = "E&xit";
-          this.ctsmiExit.Click += new System.EventHandler(this.tsmiExit_Click);
-          // 
-          // toolStripMenuItem4
-          // 
-          this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-          this.toolStripMenuItem4.Size = new System.Drawing.Size(176, 6);
-          // 
-          // soundDeviceSelector
-          // 
-          this.soundDeviceSelector.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-          this.soundDeviceSelector.Location = new System.Drawing.Point(324, 40);
-          this.soundDeviceSelector.Name = "soundDeviceSelector";
-          this.soundDeviceSelector.Size = new System.Drawing.Size(48, 32);
-          this.soundDeviceSelector.TabIndex = 7;
-          this.soundDeviceSelector.SoundDeviceChanged += new System.EventHandler(this.soundDeviceSelector_SoundDeviceChanged);
-          // 
-          // trackerSelector
-          // 
-          this.trackerSelector.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-          this.trackerSelector.Location = new System.Drawing.Point(270, 40);
-          this.trackerSelector.Name = "trackerSelector";
-          this.trackerSelector.Size = new System.Drawing.Size(48, 32);
-          this.trackerSelector.TabIndex = 6;
-          this.trackerSelector.TrackerChanged += new Atf.ScreenRecorder.UI.Presentation.TrackerChangedEventHandler(this.trackerSelector_TrackerChanged);
-          // 
-          // frmMain
-          // 
-          this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-          this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-          this.ClientSize = new System.Drawing.Size(380, 107);
-          this.Controls.Add(this.statusStrip);
-          this.Controls.Add(this.soundDeviceSelector);
-          this.Controls.Add(this.trackerSelector);
-          this.Controls.Add(this.btnOpenFolder);
-          this.Controls.Add(this.btnPlay);
-          this.Controls.Add(this.btnCancel);
-          this.Controls.Add(this.menuStrip);
-          this.Controls.Add(this.btnStop);
-          this.Controls.Add(this.btnPause);
-          this.Controls.Add(this.btnRecord);
-          this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-          this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-          this.MainMenuStrip = this.menuStrip;
-          this.MaximizeBox = false;
-          this.Name = "frmMain";
-          this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-          this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
-          this.Resize += new System.EventHandler(this.frmMain_Resize);
-          this.menuStrip.ResumeLayout(false);
-          this.menuStrip.PerformLayout();
-          this.statusStrip.ResumeLayout(false);
-          this.statusStrip.PerformLayout();
-          this.contextMenuStrip.ResumeLayout(false);
-          this.ResumeLayout(false);
-          this.PerformLayout();
+            this.contextMenuStrip.Name = "contextMenuStrip";
+            this.contextMenuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.contextMenuStrip.Size = new System.Drawing.Size(202, 320);
+            // 
+            // ctsmiAbout
+            // 
+            this.ctsmiAbout.Name = "ctsmiAbout";
+            this.ctsmiAbout.Size = new System.Drawing.Size(201, 22);
+            this.ctsmiAbout.Text = "&About";
+            this.ctsmiAbout.Click += new System.EventHandler(this.tsmiAbout_Click);
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(198, 6);
+            // 
+            // ctmsiHelpTopics
+            // 
+            this.ctmsiHelpTopics.Name = "ctmsiHelpTopics";
+            this.ctmsiHelpTopics.Size = new System.Drawing.Size(201, 22);
+            this.ctmsiHelpTopics.Text = "&Help Topics";
+            this.ctmsiHelpTopics.Click += new System.EventHandler(this.tsmiHelpTopics_Click);
+            // 
+            // ctsmiCheckForUpdates
+            // 
+            this.ctsmiCheckForUpdates.Name = "ctsmiCheckForUpdates";
+            this.ctsmiCheckForUpdates.Size = new System.Drawing.Size(201, 22);
+            this.ctsmiCheckForUpdates.Text = "Check for &updates...";
+            this.ctsmiCheckForUpdates.Click += new System.EventHandler(this.tsmiCheckForUpdates_Click);
+            // 
+            // ctsmiSendFeedback
+            // 
+            this.ctsmiSendFeedback.Name = "ctsmiSendFeedback";
+            this.ctsmiSendFeedback.Size = new System.Drawing.Size(201, 22);
+            this.ctsmiSendFeedback.Text = "&Send feedback...";
+            this.ctsmiSendFeedback.Click += new System.EventHandler(this.tsmiSendFeedback_Click);
+            // 
+            // toolStripSeparator5
+            // 
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            this.toolStripSeparator5.Size = new System.Drawing.Size(198, 6);
+            // 
+            // ctsmiRestore
+            // 
+            this.ctsmiRestore.Image = global::Atf.ScreenRecorder.Properties.Resources.restore;
+            this.ctsmiRestore.Name = "ctsmiRestore";
+            this.ctsmiRestore.Size = new System.Drawing.Size(201, 22);
+            this.ctsmiRestore.Text = "Res&tore";
+            this.ctsmiRestore.Click += new System.EventHandler(this.ctsmiRestore_Click);
+            // 
+            // ctsmiOpenFolder
+            // 
+            this.ctsmiOpenFolder.Image = global::Atf.ScreenRecorder.Properties.Resources.file_directory;
+            this.ctsmiOpenFolder.Name = "ctsmiOpenFolder";
+            this.ctsmiOpenFolder.Size = new System.Drawing.Size(201, 22);
+            this.ctsmiOpenFolder.Text = "Open Containing Folder";
+            this.ctsmiOpenFolder.Click += new System.EventHandler(this.ctsmiOpenFolder_Click);
+            // 
+            // ctssRestore
+            // 
+            this.ctssRestore.Name = "ctssRestore";
+            this.ctssRestore.Size = new System.Drawing.Size(198, 6);
+            // 
+            // ctsmiRecord
+            // 
+            this.ctsmiRecord.Image = global::Atf.ScreenRecorder.Properties.Resources.primitive_dot;
+            this.ctsmiRecord.Name = "ctsmiRecord";
+            this.ctsmiRecord.Size = new System.Drawing.Size(201, 22);
+            this.ctsmiRecord.Text = "&Record";
+            this.ctsmiRecord.Click += new System.EventHandler(this.tsmiRecord_Click);
+            // 
+            // ctsmiPause
+            // 
+            this.ctsmiPause.Image = global::Atf.ScreenRecorder.Properties.Resources.playback_pause;
+            this.ctsmiPause.Name = "ctsmiPause";
+            this.ctsmiPause.Size = new System.Drawing.Size(201, 22);
+            this.ctsmiPause.Text = "&Pause";
+            this.ctsmiPause.Click += new System.EventHandler(this.tsmiPause_Click);
+            // 
+            // ctsmiStop
+            // 
+            this.ctsmiStop.Image = global::Atf.ScreenRecorder.Properties.Resources.primitive_square;
+            this.ctsmiStop.Name = "ctsmiStop";
+            this.ctsmiStop.Size = new System.Drawing.Size(201, 22);
+            this.ctsmiStop.Text = "&Stop";
+            this.ctsmiStop.Click += new System.EventHandler(this.tsmiStop_Click);
+            // 
+            // ctsmiCancel
+            // 
+            this.ctsmiCancel.Image = global::Atf.ScreenRecorder.Properties.Resources.x;
+            this.ctsmiCancel.Name = "ctsmiCancel";
+            this.ctsmiCancel.Size = new System.Drawing.Size(201, 22);
+            this.ctsmiCancel.Text = "&Cancel";
+            this.ctsmiCancel.Click += new System.EventHandler(this.tsmiCancel_Click);
+            // 
+            // ctsmiPlay
+            // 
+            this.ctsmiPlay.Image = global::Atf.ScreenRecorder.Properties.Resources.playback_play;
+            this.ctsmiPlay.Name = "ctsmiPlay";
+            this.ctsmiPlay.Size = new System.Drawing.Size(201, 22);
+            this.ctsmiPlay.Text = "Play";
+            this.ctsmiPlay.Click += new System.EventHandler(this.tsmiPlay_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(198, 6);
+            // 
+            // ctsmiOptions
+            // 
+            this.ctsmiOptions.Name = "ctsmiOptions";
+            this.ctsmiOptions.Size = new System.Drawing.Size(201, 22);
+            this.ctsmiOptions.Text = "Options";
+            this.ctsmiOptions.Click += new System.EventHandler(this.tsmiOptions_Click);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(198, 6);
+            // 
+            // ctsmiExit
+            // 
+            this.ctsmiExit.Name = "ctsmiExit";
+            this.ctsmiExit.Size = new System.Drawing.Size(201, 22);
+            this.ctsmiExit.Text = "E&xit";
+            this.ctsmiExit.Click += new System.EventHandler(this.tsmiExit_Click);
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(176, 6);
+            // 
+            // EnableWebRTC
+            // 
+            this.EnableWebRTC.AutoSize = true;
+            this.EnableWebRTC.Location = new System.Drawing.Point(240, 49);
+            this.EnableWebRTC.Name = "EnableWebRTC";
+            this.EnableWebRTC.Size = new System.Drawing.Size(107, 17);
+            this.EnableWebRTC.TabIndex = 8;
+            this.EnableWebRTC.Text = "Enable WebRTC";
+            this.EnableWebRTC.UseVisualStyleBackColor = true;
+            this.EnableWebRTC.CheckedChanged += new System.EventHandler(this.EnableWebRTC_CheckedChanged);
+            // 
+            // soundDeviceSelector
+            // 
+            this.soundDeviceSelector.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.soundDeviceSelector.Location = new System.Drawing.Point(406, 40);
+            this.soundDeviceSelector.Name = "soundDeviceSelector";
+            this.soundDeviceSelector.Size = new System.Drawing.Size(48, 32);
+            this.soundDeviceSelector.TabIndex = 7;
+            this.soundDeviceSelector.SoundDeviceChanged += new System.EventHandler(this.soundDeviceSelector_SoundDeviceChanged);
+            // 
+            // trackerSelector
+            // 
+            this.trackerSelector.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.trackerSelector.Location = new System.Drawing.Point(352, 40);
+            this.trackerSelector.Name = "trackerSelector";
+            this.trackerSelector.Size = new System.Drawing.Size(48, 32);
+            this.trackerSelector.TabIndex = 6;
+            this.trackerSelector.TrackerChanged += new Atf.ScreenRecorder.UI.Presentation.TrackerChangedEventHandler(this.trackerSelector_TrackerChanged);
+            // 
+            // frmMain
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(462, 107);
+            this.Controls.Add(this.EnableWebRTC);
+            this.Controls.Add(this.statusStrip);
+            this.Controls.Add(this.soundDeviceSelector);
+            this.Controls.Add(this.trackerSelector);
+            this.Controls.Add(this.btnOpenFolder);
+            this.Controls.Add(this.btnPlay);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.menuStrip);
+            this.Controls.Add(this.btnStop);
+            this.Controls.Add(this.btnPause);
+            this.Controls.Add(this.btnRecord);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip;
+            this.MaximizeBox = false;
+            this.Name = "frmMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
+            this.Resize += new System.EventHandler(this.frmMain_Resize);
+            this.menuStrip.ResumeLayout(false);
+            this.menuStrip.PerformLayout();
+            this.statusStrip.ResumeLayout(false);
+            this.statusStrip.PerformLayout();
+            this.contextMenuStrip.ResumeLayout(false);
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
        }
        #endregion
@@ -647,5 +660,6 @@
        private SoundDeviceSelector soundDeviceSelector;
        private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
        private System.Windows.Forms.ToolStripMenuItem ctsmiOpenFolder;
+       private System.Windows.Forms.CheckBox EnableWebRTC;
     }
  }

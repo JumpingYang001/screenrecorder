@@ -62,6 +62,11 @@ namespace Atf.ScreenRecorder.Screen {
       #endregion
 
       #region Properties
+      public bool EnableWebRTC
+      {
+          set;
+          get;
+      }
       public int BitmapBytes {
          get {
             if (!this.opened) {

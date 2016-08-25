@@ -295,6 +295,7 @@ namespace Atf.ScreenRecorder.UI.Presentation {
          }
       } 
       private void InitializeView() {
+         this.displayProvider.EnableWebRTC = this.view.EnableWebRTCInMain;
          // Event Handlers
          this.view.Cancel += new EventHandler(view_Cancel);
          this.view.CheckForUpdates += new EventHandler(view_CheckForUpdates);
@@ -308,7 +309,8 @@ namespace Atf.ScreenRecorder.UI.Presentation {
          this.view.Stop += new EventHandler(view_Stop);
          this.view.TrackerChanged += new TrackerChangedEventHandler(view_TrackerChanged);
          this.view.Update += new EventHandler(view_Update);
-         this.view.ViewClosing += new System.ComponentModel.CancelEventHandler(view_ViewClosing);    
+         this.view.ViewClosing += new System.ComponentModel.CancelEventHandler(view_ViewClosing);
+         this.view.EnableWebRTCEvent += new EventHandler(view_EnableWebRTCEvent);
       }
       private void OpenFolder() {
          if (anyRecord) {
@@ -363,6 +365,10 @@ namespace Atf.ScreenRecorder.UI.Presentation {
          displaySettings.Tracking = trackingSettings;
          this.DisplaySettings = displaySettings;
          this.configuration.Tracking = trackingSettings;
+      }
+      private void EnableWebRTCEvent()
+      {
+          this.displayProvider.EnableWebRTC = this.view.EnableWebRTCInMain;
       }
       private void Record() {
          // Check recording state
@@ -582,6 +588,10 @@ namespace Atf.ScreenRecorder.UI.Presentation {
       }
       private void view_ViewClosing(object sender, System.ComponentModel.CancelEventArgs e) {
          e.Cancel = !this.Close();
+      }
+      private void view_EnableWebRTCEvent(object sender, EventArgs e)
+      {
+          this.EnableWebRTCEvent();
       }
       #endregion
    }

@@ -62,10 +62,9 @@ namespace Atf.ScreenRecorder.UI.View {
       #region Constructors
       public frmMain() {
          InitializeComponent();
-         this.EnableWebRTCInMain = this.EnableWebRTC.Checked;
          this.notifyIcon.Text = Application.ProductName;
          this.Text = Application.ProductName;
-         this.presenter = new MainPresenter(this);
+         this.presenter = new MainPresenter(this);        
       }
       #endregion
 
@@ -264,18 +263,7 @@ namespace Atf.ScreenRecorder.UI.View {
       public new event EventHandler Update;
       public event EventHandler ViewClosed;
       public event CancelEventHandler ViewClosing;
-      public event EventHandler EnableWebRTCEvent;
 
-      public bool EnableWebRTCInMain
-      {
-          set
-          { 
-          }
-          get
-          {
-              return this.EnableWebRTC.Checked;
-          }
-      }
       public bool AllowCancel {
          set {
             this.btnCancel.Enabled = value;
@@ -554,7 +542,7 @@ namespace Atf.ScreenRecorder.UI.View {
 
       private void EnableWebRTC_CheckedChanged(object sender, EventArgs e)
       {
-          this.EnableWebRTCEvent(this, e);
+
       }
    }
 }

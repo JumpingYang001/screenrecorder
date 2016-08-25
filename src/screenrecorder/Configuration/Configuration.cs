@@ -81,6 +81,7 @@ namespace Atf.ScreenRecorder.Configuration {
             string myDocuments = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             try {
                outputDir = Path.Combine(myDocuments, outputDirInMyDocs);
+               Directory.CreateDirectory(outputDir);
             }
             catch (ArgumentException) {
                outputDir = myDocuments;

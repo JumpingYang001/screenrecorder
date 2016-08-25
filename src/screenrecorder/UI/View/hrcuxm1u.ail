@@ -62,10 +62,10 @@ namespace Atf.ScreenRecorder.UI.View {
       #region Constructors
       public frmMain() {
          InitializeComponent();
-         this.EnableWebRTCInMain = this.EnableWebRTC.Checked;
          this.notifyIcon.Text = Application.ProductName;
          this.Text = Application.ProductName;
          this.presenter = new MainPresenter(this);
+         this.EnableWebRTCInMain = this.EnableWebRTC.Checked;
       }
       #endregion
 
