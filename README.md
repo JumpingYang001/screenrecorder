@@ -8,12 +8,6 @@ Release version: [v1.3-binary]
 
 [v1.3-binary]: https://github.com/JumpingYang001/screenrecorder/releases/tag/v1.3-binary
 
-Developing WebRTC version
-------------
-Release version: [v1.4]
-
-[v1.4]: https://github.com/JumpingYang001/screenrecorder/releases/tag/v1.4
-
 WebRTC support
 ------------
 I have copied webrtc from [AecVadNoiseSuppressionLibrary]
