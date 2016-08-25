@@ -8,6 +8,13 @@ Release version: [v1.3-binary]
 
 [v1.3-binary]: https://github.com/JumpingYang001/screenrecorder/releases/tag/v1.3-binary
 
+WebRTC support
+------------
+I have copied webrtc from [AecVadNoiseSuppressionLibrary]
+but it not works well, need to improve.  
+
+[AecVadNoiseSuppressionLibrary]: http://startrinity.com/OpenSource/Aec/AecVadNoiseSuppressionLibrary.aspx
+
 Features
 ------------
 Specific capture region in four ways: Full Screen, Fixed Part of Desktop, Window Region and Track Mouse Cursor (new)
